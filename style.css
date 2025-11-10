@@ -1,0 +1,34 @@
+/* Estiliza o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cor de fundo inicial */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    
+    /* Adiciona uma transição suave para a mudança de cor */
+    transition: background-color 0.3s ease;
+}
+
+/* Estiliza o título */
+#titulo-principal {
+    color: #333;
+}
+
+/* Estiliza o botão */
+#meu-botao {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#meu-botao:hover {
+    background-color: #0056b3;
+}
